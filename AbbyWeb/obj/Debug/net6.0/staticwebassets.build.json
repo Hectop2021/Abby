@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D5kzlB66DIMmHN/hcfVnOwUGLinq7+xGNtAkgBji4Xk=",
+  "Hash": "1ggSqgkaS+isC+iw8SHKrcEwI/B8UpRaFrErYaNXlSw=",
   "Source": "AbbyWeb",
   "BasePath": "_content/AbbyWeb",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\js\\menuItem.js",
+      "SourceId": "AbbyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\",
+      "BasePath": "_content/AbbyWeb",
+      "RelativePath": "js/menuItem.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\menuItem.js"
     },
     {
       "Identity": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\js\\site.js",

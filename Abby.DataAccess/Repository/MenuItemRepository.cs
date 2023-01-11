@@ -9,26 +9,28 @@ using System.Threading.Tasks;
 
 namespace Abby.DataAccess.Repository
 {
-    public class MenuItemRepository : Repository<MenuItem>, IMenuItemRepository
-    {
-        private readonly ApplicationDBContext _db;
-        public MenuItemRepository(ApplicationDBContext db) : base(db)
-        {
-            _db = db;
-        }
+	public class MenuItemRepository : Repository<MenuItem>, IMenuItemRepository
+	{
+		private readonly ApplicationDBContext _db;
 
-        public void Update(MenuItem MenuItem)
-        {
-            var objFromDb = _db.MenuItem.FirstOrDefault(u => u.Id == MenuItem.Id);
-            objFromDb.Name = MenuItem.Name;
-            objFromDb.Description = MenuItem.Description;
-            objFromDb.Price = MenuItem.Price;
-            objFromDb.CategoryId = MenuItem.CategoryId;
-            objFromDb.FoodTypeId = MenuItem.FoodTypeId;
-            if (objFromDb.Image != null)
-            {
-                objFromDb.Image = MenuItem.Image;
-            }
-        }
-    }
+		public MenuItemRepository(ApplicationDBContext db) : base(db)
+		{
+			_db = db;
+		}
+
+
+		public void Update(MenuItem obj)
+		{
+			var objFromDb = _db.MenuItem.FirstOrDefault(u => u.Id == obj.Id);
+			objFromDb.Name = obj.Name;
+			objFromDb.Description = obj.Description;
+			objFromDb.Price = obj.Price;
+			objFromDb.CategoryId = obj.CategoryId;
+			objFromDb.FoodTypeId = obj.FoodTypeId;
+			if (objFromDb.Image != null)
+			{
+				objFromDb.Image = obj.Image;
+			}
+		}
+	}
 }

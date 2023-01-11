@@ -1,4 +1,5 @@
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.deps.json
+C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.runtimeconfig.json
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.dll
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.pdb
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.Models.dll
@@ -12,6 +13,5 @@ C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.Dat
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.dll
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\obj\Debug\net6.0\refint\Abby.DataAccess.dll
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.pdb
-C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\obj\Debug\net6.0\ref\Abby.DataAccess.dll
-C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.runtimeconfig.json
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.genruntimeconfig.cache
+C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\obj\Debug\net6.0\ref\Abby.DataAccess.dll
