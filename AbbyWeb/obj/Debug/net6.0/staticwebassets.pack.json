@@ -17,6 +17,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\3319545a-e978-417f-8051-11dc531c72f1.jpg",
+      "PackagePath": "staticwebassets\\images\\menuItems\\3319545a-e978-417f-8051-11dc531c72f1.jpg"
+    },
+    {
+      "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\6df19227-79d4-441b-9100-02a2619b4fe4.jpg",
+      "PackagePath": "staticwebassets\\images\\menuItems\\6df19227-79d4-441b-9100-02a2619b4fe4.jpg"
+    },
+    {
+      "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\b966ebbf-2f55-4387-84b8-d8e8400ba96f.jpg",
+      "PackagePath": "staticwebassets\\images\\menuItems\\b966ebbf-2f55-4387-84b8-d8e8400ba96f.jpg"
+    },
+    {
+      "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\c85e599a-711c-4c94-930b-10c9b3a2c4bb.jpg",
+      "PackagePath": "staticwebassets\\images\\menuItems\\c85e599a-711c-4c94-930b-10c9b3a2c4bb.jpg"
+    },
+    {
+      "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\e553ea61-7124-4604-a0f2-f22b811aa483.jpg",
+      "PackagePath": "staticwebassets\\images\\menuItems\\e553ea61-7124-4604-a0f2-f22b811aa483.jpg"
+    },
+    {
+      "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\e85a13f5-ed94-4405-9343-5d71316009ac.jpg",
+      "PackagePath": "staticwebassets\\images\\menuItems\\e85a13f5-ed94-4405-9343-5d71316009ac.jpg"
+    },
+    {
+      "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\fdae0cf5-f38f-414b-b4a2-90db2da3a815.jpg",
+      "PackagePath": "staticwebassets\\images\\menuItems\\fdae0cf5-f38f-414b-b4a2-90db2da3a815.jpg"
+    },
+    {
       "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\js\\menuItem.js",
       "PackagePath": "staticwebassets\\js\\menuItem.js"
     },
