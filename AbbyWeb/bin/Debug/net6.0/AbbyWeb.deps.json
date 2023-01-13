@@ -9,6 +9,7 @@
       "AbbyWeb/1.0.0": {
         "dependencies": {
           "Abby.DataAccess": "1.0.0",
+          "Abby.Utility": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.12",
           "Microsoft.AspNetCore.Identity.UI": "6.0.12",
           "Microsoft.EntityFrameworkCore": "6.0.12",
@@ -2350,8 +2351,19 @@
         }
       },
       "Abby.Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "6.0.12"
+        },
         "runtime": {
           "Abby.Models.dll": {}
+        }
+      },
+      "Abby.Utility/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.12"
+        },
+        "runtime": {
+          "Abby.Utility.dll": {}
         }
       }
     }
@@ -3628,6 +3640,11 @@
       "sha512": ""
     },
     "Abby.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Abby.Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

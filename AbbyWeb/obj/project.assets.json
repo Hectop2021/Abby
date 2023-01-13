@@ -3699,11 +3699,27 @@
       "Abby.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "6.0.12"
+        },
         "compile": {
           "bin/placeholder/Abby.Models.dll": {}
         },
         "runtime": {
           "bin/placeholder/Abby.Models.dll": {}
+        }
+      },
+      "Abby.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "6.0.12"
+        },
+        "compile": {
+          "bin/placeholder/Abby.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Abby.Utility.dll": {}
         }
       }
     }
@@ -10448,11 +10464,17 @@
       "type": "project",
       "path": "../Abby.Models/Abby.Models.csproj",
       "msbuildProject": "../Abby.Models/Abby.Models.csproj"
+    },
+    "Abby.Utility/1.0.0": {
+      "type": "project",
+      "path": "../Abby.Utility/Abby.Utility.csproj",
+      "msbuildProject": "../Abby.Utility/Abby.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Abby.DataAccess >= 1.0.0",
+      "Abby.Utility >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.12",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.12",
       "Microsoft.EntityFrameworkCore >= 6.0.12",
@@ -10491,6 +10513,9 @@
           "projectReferences": {
             "C:\\Development\\AspNetCore 6 Razor\\Abby\\Abby.DataAccess\\Abby.DataAccess.csproj": {
               "projectPath": "C:\\Development\\AspNetCore 6 Razor\\Abby\\Abby.DataAccess\\Abby.DataAccess.csproj"
+            },
+            "C:\\Development\\AspNetCore 6 Razor\\Abby\\Abby.Utility\\Abby.Utility.csproj": {
+              "projectPath": "C:\\Development\\AspNetCore 6 Razor\\Abby\\Abby.Utility\\Abby.Utility.csproj"
             }
           }
         }

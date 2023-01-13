@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
+using Abby.Utility;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,8 +20,10 @@ builder.Services.AddDbContext<ApplicationDBContext>(options => options.UseSqlSer
     builder.Configuration.GetConnectionString("DefaultConnection")
 ));
 
-builder.Services.AddDefaultIdentity<IdentityUser>()
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDBContext>().AddDefaultTokenProviders();
+
+builder.Services.AddSingleton<IEmailSender, EmailSender>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 var app = builder.Build();
