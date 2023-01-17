@@ -20,10 +20,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Abby.DataAccess\Abby.DataAccess.csproj" />
+    <ProjectReference Include="..\Abby.Utility\Abby.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Customer\Cart\" />
     <Folder Include="wwwroot\images\menuItems\" />
   </ItemGroup>
 
