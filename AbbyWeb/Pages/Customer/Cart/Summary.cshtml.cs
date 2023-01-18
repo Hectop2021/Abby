@@ -4,6 +4,8 @@ using Abby.Utility;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Stripe.Checkout;
 using System.Security.Claims;
 
 namespace AbbyWeb.Pages.Customer.Cart
@@ -43,7 +45,7 @@ namespace AbbyWeb.Pages.Customer.Cart
             }
         }
 
-		public void OnPost()
+		public IActionResult OnPost()
 		{
 			var claimsIdentity = (ClaimsIdentity)User.Identity;
 			var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
@@ -76,10 +78,54 @@ namespace AbbyWeb.Pages.Customer.Cart
                     };
                     _unitOfWork.OrderDetails.Add(OrderDetails);
 				}
-
-                _unitOfWork.ShoppingCart.RemoveRange(ShoppingCartList);
 				_unitOfWork.Save();
+
+				var domain = "https://localhost:7008/";
+				var options = new SessionCreateOptions
+				{
+					LineItems = new List<SessionLineItemOptions>
+				    {
+				      
+				    },
+					Mode = "payment",
+					SuccessUrl = domain + $"customer/cart/OrderConfirmation?id={OrderHeader.Id}",
+					CancelUrl = domain + "customer/cart/index",
+				};
+
+				//	Add line items
+				foreach( var item in ShoppingCartList )
+				{
+					var sessionLineItem = new SessionLineItemOptions
+					{
+						// Provide the exact Price ID (for example, pr_1234) of the product you want to sell
+						PriceData = new SessionLineItemPriceDataOptions
+						{
+							UnitAmount = (long)(item.MenuItem.Price * 100),
+							Currency = "usd",
+							ProductData = new SessionLineItemPriceDataProductDataOptions
+							{
+								Name = item.MenuItem.Name
+							},
+						},
+						Quantity = item.Count
+					};
+					options.LineItems.Add(sessionLineItem);
+				}
+
+				var service = new SessionService();
+				Session session = service.Create(options);
+
+				Response.Headers.Add("Location", session.Url);
+
+				OrderHeader.SessionId = session.Id;
+				OrderHeader.PaymentIntentId = session.PaymentIntentId;
+				_unitOfWork.Save();
+
+				return new StatusCodeResult(303);
 			}
+
+			return Page();
 		}
+
 	}
 }

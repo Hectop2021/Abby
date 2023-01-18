@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "PackagePath": "staticwebassets\\images\\lawn_leaf.jpg"
+    },
+    {
       "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\3319545a-e978-417f-8051-11dc531c72f1.jpg",
       "PackagePath": "staticwebassets\\images\\menuItems\\3319545a-e978-417f-8051-11dc531c72f1.jpg"
     },
@@ -43,6 +47,18 @@
     {
       "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\menuItems\\fdae0cf5-f38f-414b-b4a2-90db2da3a815.jpg",
       "PackagePath": "staticwebassets\\images\\menuItems\\fdae0cf5-f38f-414b-b4a2-90db2da3a815.jpg"
+    },
+    {
+      "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\mild.png",
+      "PackagePath": "staticwebassets\\images\\mild.png"
+    },
+    {
+      "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\spicy.png",
+      "PackagePath": "staticwebassets\\images\\spicy.png"
+    },
+    {
+      "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\images\\verySpicy.png",
+      "PackagePath": "staticwebassets\\images\\verySpicy.png"
     },
     {
       "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\js\\menuItem.js",

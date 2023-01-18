@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Gtj+MZVCBdzmEdQXL+iWqfk2XuCqUq1gCV4Qz4kIb46BJNGdScME17WGt1FYL6Vm1Px4+9YO2HgGFEkR4ULLXQ==",
+  "dgSpecHash": "S9t4LeVGR9+Kw7zfx0QLrhNA416h+Pbfth7u47S46lFmbnScEFvlKZUMX3SEN4x9zswxKapwv2jXE5bqX5PcKg==",
   "success": true,
   "projectFilePath": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\AbbyWeb.csproj",
   "expectedPackageFiles": [
@@ -124,6 +124,7 @@
     "C:\\Users\\Taras\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Taras\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Taras\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\Taras\\.nuget\\packages\\stripe.net\\41.4.0\\stripe.net.41.4.0.nupkg.sha512",
     "C:\\Users\\Taras\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\Taras\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\Taras\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",

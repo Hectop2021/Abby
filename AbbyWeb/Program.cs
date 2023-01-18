@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Abby.Utility;
 using System;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")
 ));
+builder.Services.Configure<StripeSettings>(builder.Configuration.GetSection("Stripe"));
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDBContext>().AddDefaultTokenProviders();
@@ -49,8 +51,11 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-app.UseAuthentication();;
 
+string key = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
+StripeConfiguration.ApiKey= key;
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();

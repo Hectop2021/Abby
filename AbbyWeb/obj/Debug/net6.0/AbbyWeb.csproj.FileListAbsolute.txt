@@ -284,3 +284,4 @@ C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Utility.pdb
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Stripe.net.dll
