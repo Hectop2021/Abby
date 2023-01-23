@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u7+Gwnzoo4PKgyu4V+sZSMOIVqsp5zaJ5I9HBQ1koY4=",
+  "Hash": "tAlyNw/KTX8Kn3ocHP5myiOlmIVoVSZp20HmiWzOu9Y=",
   "Source": "AbbyWeb",
   "BasePath": "_content/AbbyWeb",
   "Mode": "Default",
@@ -304,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\menuItem.js"
+    },
+    {
+      "Identity": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\js\\orderList.js",
+      "SourceId": "AbbyWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\",
+      "BasePath": "_content/AbbyWeb",
+      "RelativePath": "js/orderList.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\orderList.js"
     },
     {
       "Identity": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\js\\site.js",

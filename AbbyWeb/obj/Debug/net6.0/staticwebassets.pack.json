@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\js\\menuItem.js"
     },
     {
+      "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\js\\orderList.js",
+      "PackagePath": "staticwebassets\\js\\orderList.js"
+    },
+    {
       "Id": "C:\\Development\\AspNetCore 6 Razor\\Abby\\AbbyWeb\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

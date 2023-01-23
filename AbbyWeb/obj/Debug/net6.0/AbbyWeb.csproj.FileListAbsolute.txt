@@ -33,6 +33,7 @@ C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.CodeAn
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -41,6 +42,7 @@ C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Entity
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
@@ -70,6 +72,7 @@ C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\NuGet.Packaging.
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\NuGet.ProjectModel.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Stripe.net.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\System.Composition.Convention.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\System.Composition.Hosting.dll
@@ -253,13 +256,16 @@ C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\runtimes\win\lib
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Abby.DataAccess.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Models.dll
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Utility.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Abby.DataAccess.pdb
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Utility.pdb
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Models.pdb
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.csproj.AssemblyReference.cache
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.GeneratedMSBuildEditorConfig.editorconfig
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.AssemblyInfoInputs.cache
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.AssemblyInfo.cs
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.csproj.CoreCompileInputs.cache
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.MvcApplicationPartsAssemblyInfo.cs
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.MvcApplicationPartsAssemblyInfo.cache
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.RazorAssemblyInfo.cache
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.RazorAssemblyInfo.cs
@@ -279,9 +285,6 @@ C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\refint\AbbyWeb.d
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.pdb
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.genruntimeconfig.cache
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\ref\AbbyWeb.dll
-C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Utility.dll
-C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Abby.Utility.pdb
-C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.MvcApplicationPartsAssemblyInfo.cs
-C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Stripe.net.dll
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\MailKit.dll
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\MimeKit.dll
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll
