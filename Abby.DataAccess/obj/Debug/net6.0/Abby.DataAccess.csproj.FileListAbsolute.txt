@@ -3,7 +3,9 @@ C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.Dat
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.dll
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.DataAccess.pdb
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.Models.dll
+C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.Utility.dll
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.Models.pdb
+C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\bin\Debug\net6.0\Abby.Utility.pdb
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.csproj.AssemblyReference.cache
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
 C:\Development\AspNetCore 6 Razor\Abby\Abby.DataAccess\obj\Debug\net6.0\Abby.DataAccess.AssemblyInfoInputs.cache

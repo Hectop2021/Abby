@@ -2563,6 +2563,7 @@
       "Abby.DataAccess/1.0.0": {
         "dependencies": {
           "Abby.Models": "1.0.0",
+          "Abby.Utility": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.12",
           "Microsoft.EntityFrameworkCore": "6.0.12",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.12"

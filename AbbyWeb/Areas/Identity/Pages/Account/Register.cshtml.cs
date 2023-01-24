@@ -139,14 +139,6 @@ namespace AbbyWeb.Areas.Identity.Pages.Account
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
-                if (!await _roleManager.RoleExistsAsync(SD.ManagerRole))
-                {
-                    await _roleManager.CreateAsync(new IdentityRole(SD.KitchenRole));
-                    await _roleManager.CreateAsync(new IdentityRole(SD.FrontDeskRole));
-                    await _roleManager.CreateAsync(new IdentityRole(SD.CustomerRole));
-                    await _roleManager.CreateAsync(new IdentityRole(SD.ManagerRole));
-                }
-
                 if (result.Succeeded)
                 {
                     string role = Request.Form["rdUserRole"].ToString();

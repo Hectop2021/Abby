@@ -31,6 +31,9 @@
             "projectReferences": {
               "C:\\Development\\AspNetCore 6 Razor\\Abby\\Abby.Models\\Abby.Models.csproj": {
                 "projectPath": "C:\\Development\\AspNetCore 6 Razor\\Abby\\Abby.Models\\Abby.Models.csproj"
+              },
+              "C:\\Development\\AspNetCore 6 Razor\\Abby\\Abby.Utility\\Abby.Utility.csproj": {
+                "projectPath": "C:\\Development\\AspNetCore 6 Razor\\Abby\\Abby.Utility\\Abby.Utility.csproj"
               }
             }
           }
@@ -128,6 +131,76 @@
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[6.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Development\\AspNetCore 6 Razor\\Abby\\Abby.Utility\\Abby.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Development\\AspNetCore 6 Razor\\Abby\\Abby.Utility\\Abby.Utility.csproj",
+        "projectName": "Abby.Utility",
+        "projectPath": "C:\\Development\\AspNetCore 6 Razor\\Abby\\Abby.Utility\\Abby.Utility.csproj",
+        "packagesPath": "C:\\Users\\Taras\\.nuget\\packages\\",
+        "outputPath": "C:\\Development\\AspNetCore 6 Razor\\Abby\\Abby.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Taras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.4.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.12, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[3.4.3, )"
             }
           },
           "imports": [

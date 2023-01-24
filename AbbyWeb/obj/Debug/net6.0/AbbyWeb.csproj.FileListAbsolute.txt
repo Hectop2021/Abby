@@ -7,6 +7,7 @@ C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\AbbyWeb.runtimec
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\AbbyWeb.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\AbbyWeb.pdb
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Humanizer.dll
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\MailKit.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\MessagePack.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\MessagePack.Annotations.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -62,6 +63,7 @@ C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Visual
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\MimeKit.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\NuGet.Common.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\NuGet.Configuration.dll
@@ -72,6 +74,7 @@ C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\NuGet.Packaging.
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\NuGet.ProjectModel.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\NuGet.Protocol.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\NuGet.Versioning.dll
+C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\Stripe.net.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\System.Composition.AttributedModel.dll
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\System.Composition.Convention.dll
@@ -285,6 +288,3 @@ C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\refint\AbbyWeb.d
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.pdb
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\AbbyWeb.genruntimeconfig.cache
 C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\obj\Debug\net6.0\ref\AbbyWeb.dll
-C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\MailKit.dll
-C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\MimeKit.dll
-C:\Development\AspNetCore 6 Razor\Abby\AbbyWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll
