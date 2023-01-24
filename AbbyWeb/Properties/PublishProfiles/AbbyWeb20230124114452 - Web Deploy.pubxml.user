@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkvbqFzqfmkyqQw4ds898gwAAAAACAAAAAAAQZgAAAAEAACAAAAAU5n9Aw6gATAzOZQ/JNz0lgi8Qr3b32zXG00eJmrfElwAAAAAOgAAAAAIAACAAAABTRFiCjx3HpL98D/NGRcKFoMPxFmx2Ug1aMc5dSNLiKYAAAADFGOzZudL6801W1kuPGfu9V3FDdgYDQ5ImvYEMRIBNMyyXcS2YT3VdD2a8wLTU/b3SXeSR9XW4WIqCdMjfaxxnAyqUUX9mU4ZfdvM2kePEHuE0tonx3suuEUkfhsxhTjrXcgu5j1MPsTSDnDzW5hs2aQin4zzlrGCTAJ0BOE/in0AAAACKRpFcQP6VCMvKlJOlAwbd4Tbrz+jD3bR6qBPQRJDlSrMsFAw9iVxB+10DwmD0KxCldiNm2vImi1W4AqGL/nlc</EncryptedPassword>
+    <History>True|2023-01-24T16:53:17.5638090Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:nsl-sql.database.windows.net,1433%3bInitial Catalog=Abby%3bPersist Security Info=False%3bUser ID=nsl-sa%3bPassword=T0r0nt02022%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

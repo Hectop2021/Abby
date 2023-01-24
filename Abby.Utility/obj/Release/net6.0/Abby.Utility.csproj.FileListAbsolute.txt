@@ -1,0 +1,12 @@
+C:\Development\AspNetCore 6 Razor\Abby\Abby.Utility\bin\Release\net6.0\Abby.Utility.deps.json
+C:\Development\AspNetCore 6 Razor\Abby\Abby.Utility\bin\Release\net6.0\Abby.Utility.dll
+C:\Development\AspNetCore 6 Razor\Abby\Abby.Utility\bin\Release\net6.0\Abby.Utility.pdb
+C:\Development\AspNetCore 6 Razor\Abby\Abby.Utility\obj\Release\net6.0\Abby.Utility.csproj.AssemblyReference.cache
+C:\Development\AspNetCore 6 Razor\Abby\Abby.Utility\obj\Release\net6.0\Abby.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\AspNetCore 6 Razor\Abby\Abby.Utility\obj\Release\net6.0\Abby.Utility.AssemblyInfoInputs.cache
+C:\Development\AspNetCore 6 Razor\Abby\Abby.Utility\obj\Release\net6.0\Abby.Utility.AssemblyInfo.cs
+C:\Development\AspNetCore 6 Razor\Abby\Abby.Utility\obj\Release\net6.0\Abby.Utility.csproj.CoreCompileInputs.cache
+C:\Development\AspNetCore 6 Razor\Abby\Abby.Utility\obj\Release\net6.0\Abby.Utility.dll
+C:\Development\AspNetCore 6 Razor\Abby\Abby.Utility\obj\Release\net6.0\refint\Abby.Utility.dll
+C:\Development\AspNetCore 6 Razor\Abby\Abby.Utility\obj\Release\net6.0\Abby.Utility.pdb
+C:\Development\AspNetCore 6 Razor\Abby\Abby.Utility\obj\Release\net6.0\ref\Abby.Utility.dll
